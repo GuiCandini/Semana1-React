@@ -3,7 +3,8 @@
 
 import Titulo from "./components/Titulo";
 import Mensagem from "./components/Mensagem";
-
+import Rodape from "./components/Rodape";
+import Blog from "./components/Blog"
 
 //Componente principal da aplicação
 function App() {
@@ -11,8 +12,8 @@ function App() {
         <main>
             <Titulo />
             <Mensagem />
-            <Mensagem />
-            <Mensagem />
+            <Blog />
+            <Rodape />
         </main>
     );
 }
