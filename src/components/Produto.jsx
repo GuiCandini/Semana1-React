@@ -11,7 +11,7 @@ function Produto(props) {
             </div>
             <ul className="lista">
                 <li>{props.nomeProd}</li>
-                {<li>de: R${props.precoUnit}</li>}
+                <p >de:{<li className="precin">R${props.precoUnit}</li>}</p>
                 <li>por: R${resultado.toFixed(2)}</li>
             </ul>
         </section>
