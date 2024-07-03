@@ -2,10 +2,11 @@
 //Componentes são funções
 //Retorno da função é a parte visual
 //Exportar o componente
+import "./Titulo.css"
 
 function Titulo() {
     return (
-    <h2>Frases do dia</h2>
+    <h2 className="titulo">Frases do dia</h2>
 );
 }
 
