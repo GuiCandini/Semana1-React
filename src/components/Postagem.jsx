@@ -1,18 +1,15 @@
 import "./Postagem.css";
 
-function Postagem() {
-    const tituloPost = "Imagens Aleatórias";
-    const nomeSite = "Picsum photos";
-    const linkImg = "https://picsum.photos/250";
+function Postagem(props) {
 
     return (
         <article className = "postagem-corpo">
-            <h2 className = "postagem-titulo">{tituloPost}</h2>
-            <img src={linkImg} alt="Imagem da Mensagem" />
+            <h2 className = "postagem-titulo">{props.titulo}</h2>
+            <img src= {props.linkImg} alt={props.legenda} className="imagem"/>
             <p className ="par">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eligendi?
+                {props.desc}
             </p>
-            <small>Postado por: {nomeSite}</small>
+            <small>Postado por: Guilherme</small>
         </article>
     );
 }
