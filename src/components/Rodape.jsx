@@ -7,7 +7,7 @@ function Rodape() {
     const linkImagem = "https://soulcode.com/assets/img/logo.png";
 
     return (
-        <section className="rodape">
+        <footer className="rodape">
             <h3 className="titulo-rodape"> {rodapeTitulo}</h3>
             <p className="rodaP">
                 {contato}
@@ -17,7 +17,8 @@ function Rodape() {
             <div className="imgRodape">
             <img src={linkImagem} alt="SoulCode" />
             </div>
-        </section>
+            ©2015-2024 Soulcode. Todos os direitos reservados.
+        </footer>
     );
 }
 

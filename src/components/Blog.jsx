@@ -1,12 +1,15 @@
 import Postagem from "./Postagem";
+import "./Blog.css"
 
 function Blog() {
     return (
-        <main>
+        <section className="Blog">
+            <hr />
+            <h2>Postagens</h2>
             <Postagem />
             <Postagem />
             <Postagem />
-        </main>
+        </section>
     );
 }
 

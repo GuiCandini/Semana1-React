@@ -9,12 +9,14 @@ import Blog from "./components/Blog"
 //Componente principal da aplicação
 function App() {
     return (
-        <main>
-            <Titulo />
-            <Mensagem />
-            <Blog />
+        <>
+            <main>
+                <Titulo />
+                <Mensagem />
+                <Blog />
+            </main>
             <Rodape />
-        </main>
+        </>
     );
 }
 
