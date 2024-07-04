@@ -1,5 +1,5 @@
 .produto-corpo {
-    background-color: lightblue;
+    background-color: whitesmoke;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid black;
@@ -13,18 +13,11 @@
     text-align: center;
 }
 
-.lista {
-    list-style-type: none;
-}
-
-.playImg {
-    width: 150px;
-}
-
-.divImg {
-    text-align: center;
-}
-
-.precin {
+.preco {
     text-decoration: line-through;
+    color: grey;
+}
+
+.desconto {
+    color: green;
 }

@@ -1,5 +1,5 @@
 .card-corpo {
-    background-color: lightblue;
+    background-color: whitesmoke;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid black;
@@ -14,4 +14,12 @@
 
 .lista {
     list-style-type: none;
+}
+
+.aprovado {
+    color: green;
+}
+
+.reprovado {
+    color: darkred;
 }
