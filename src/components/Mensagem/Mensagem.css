@@ -1,0 +1,20 @@
+.mensagem-titulo {
+    color:rgb(118, 12, 12);
+    text-align: center;
+  }
+  
+  .paragrafo {
+    font-style: italic;
+  }
+  
+  .mensagem-corpo {
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 8px auto;
+  }
+  .imgMensagem {
+    text-align: center;
+  }

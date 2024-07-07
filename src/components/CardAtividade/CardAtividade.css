@@ -1,0 +1,48 @@
+.cardsGeral {
+    display: flex;
+    flex-direction: row;
+}
+.card-corpo {
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 8px auto;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsAcai {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 370px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.tituloAcai {
+    color: #222;
+    font-size: 1.2rem;
+    padding: 6px;
+    height: 64px;
+}
+
+.imagemAcai {
+    background-color: aliceblue;
+    width: 200px;
+}
+
+.desc-Acai {
+    font-size: 1rem;
+    color: black;
+}
+
+.card-retorno {
+    display: flex;
+    gap: 20px;
+}

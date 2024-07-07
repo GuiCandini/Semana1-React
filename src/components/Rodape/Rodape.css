@@ -1,0 +1,26 @@
+.rodape {
+    width: 400px;
+    background-color: lightgray;
+    margin: auto;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.titulo-rodape {
+    color: darkcyan;
+    text-align: center;
+}
+
+.rodaP {
+    text-align: center;
+    padding: 8px;
+
+}
+
+.imgRodape {
+    text-align: center;
+    padding: 20px;
+}

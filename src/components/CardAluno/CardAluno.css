@@ -1,0 +1,25 @@
+.card-corpo {
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 8px auto;
+    font-size: 1.4rem;
+}
+
+.titulo-card {
+    text-align: center;
+}
+
+.lista {
+    list-style-type: none;
+}
+
+.aprovado {
+    color: green;
+}
+
+.reprovado {
+    color: darkred;
+}

@@ -1,0 +1,23 @@
+.produto-corpo {
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 8px auto;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.titulo-produto {
+    text-align: center;
+}
+
+.preco {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.desconto {
+    color: green;
+}
