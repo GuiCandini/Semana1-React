@@ -1,0 +1,19 @@
+.botoes-abas {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.botoes-abas button {
+    padding: 4px 18px;
+    margin: 4px;
+}
+
+.ativo-abas {
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.desativado {
+    background-color: lightgrey;
+}

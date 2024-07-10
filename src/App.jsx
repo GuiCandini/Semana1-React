@@ -14,16 +14,34 @@
 import BannerSemana4 from "./components/BannerSemana4/BannerSemana4";
 import Cabecalho from "./components/Cabecalho/Cabecalho";
 import RodapeSemana4 from "./components/RodapeSemana4/RodapeSemana4";
-
+import Eventos from "./components/Eventos/Eventos";
+import Contador from "./components/Contador/Contador";
+import Abas from "./components/Abas/Abas";
+import Carrossel from "./components/Carrossel/Carrossel";
+import CalculadoraImc from "./components/CalculadoraImc/CalculadoraIMC";
+import Post from "./components/Post/Post";
+import ConversorTemperatura from "./components/ConversorTemperatura/ConversorTemperatura";
 
 //Componente principal da aplicação
 function App() {
     return (
         <>
             <main>
+                {/* ATIVIDADE SEMANA 4
                 <Cabecalho login = {false} user = "Guilherme"/>
                 <BannerSemana4 />
-                <RodapeSemana4 />
+                <RodapeSemana4 /> */}
+                
+                {/* <Eventos /> */}
+                {/* <Contador valorInicial={0}/>
+                <Contador valorInicial={10}/>
+                <Contador /> */}
+                {/* <Abas /> */}
+                {/* <Carrossel /> */}
+                {/* <CalculadoraImc /> */}
+                <Post/>
+                <hr />
+                <ConversorTemperatura />
             </main>
         </>
     );
